@@ -11,9 +11,11 @@ body{
     display:flex;
 }
 .text{
-    width:100%
+    width:45%;
 }
-
+.topnav{
+    width:90%;
+}
 .topnav a {
     float: right;
     display: block;
@@ -39,7 +41,7 @@ body{
 .logo { 
     vertical-align: middle;
     width: 50px;
-    height: 50px;
+    height: auto;
     border-radius: 50%;
     float:left;
     max-width:100%;
@@ -49,7 +51,7 @@ body{
 .avatar {
     vertical-align: middle;
     width: 50px;
-    height: 50px;
+    height: auto;
     border-radius: 50%;
     float:right;
     max-width:100%;
@@ -92,6 +94,7 @@ body{
     padding-right: 35%;
     padding-bottom: 40%;
     padding-top: 5%;
+    width:45%;
 
 }
 
@@ -153,19 +156,20 @@ body{
     float:left;
     vertical-align: center;
     width: 25px;
-    height: 25px;
+    height: auto;
     border-radius: 25%;
+    max-width:100%;
 
 }
 
 .sidemenu> p2{
     padding-right:15%;
-    font-size: 1rem;
+    font-size: 1vw;
 }
 
 
 .sidemenu>h2>a{
-    font-size: 1.5rem;
+    font-size: 1.5vw;
     align-items:center;
     text-decoration: none;
     color:#0e0d0d;
@@ -173,7 +177,7 @@ body{
 
 .sidemenu> h3> a{
     color: black;
-    font-size: 1rem;
+    font-size: 1.5vw;
     letter-spacing: 0.1rem;
     text-decoration: none;
     padding-top:20%;
@@ -182,7 +186,7 @@ body{
 }
 
 .sidemenu > h4> a{
-        font-size: 1.5rem;
+        font-size: 1.5vw;
         align-items:center;
         text-decoration: none;
         color:#0e0d0d;
@@ -192,14 +196,16 @@ body{
 .images{
     padding-right: 5%;
     padding-top:15%;
+    max-width:100%;
 }
 
 .icon{
         float:center;
         vertical-align: center;
         width: 25px;
-        height: 25px;
+        height: auto;
         border-radius: 25%;
+        max-width:100%;
 
 }
 
